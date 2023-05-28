@@ -11,7 +11,7 @@
 
 	const _products = _getProducts();
 	// console.log(_products);
-	// LightMode();
+	LightMode();
 	let prod: Product[] = [];
 	_products.then((response) => {
 		response.data.forEach(async (item) => {
